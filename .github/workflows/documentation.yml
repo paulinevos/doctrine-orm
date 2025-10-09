@@ -5,16 +5,14 @@ on:
     branches:
       - "*.x"
     paths:
-      - ".github/workflows/documentation.yml"
-      - "docs/**"
+      - .github/workflows/documentation.yml
+      - docs/**
   push:
-    branches:
-      - "*.x"
     paths:
-      - ".github/workflows/documentation.yml"
-      - "docs/**"
+      - .github/workflows/documentation.yml
+      - docs/**
 
 jobs:
   documentation:
     name: "Documentation"
-    uses: "doctrine/.github/.github/workflows/documentation.yml@7.3.0"
+    uses: "doctrine/.github/.github/workflows/documentation.yml@update-docs"

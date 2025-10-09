@@ -1,5 +1,3 @@
-:orphan:
-
 .. toctree::
    :caption: Tutorials
    :depth: 3
